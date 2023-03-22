@@ -15,7 +15,7 @@ from tensorflow.keras import datasets
 import tensorflow.keras as K
 
 def GiveMNIST32_Tanh():
-    mnistName = "MNIST"
+    mnistName = "mnist"
     data_X, data_y = load_mnist_tanh(mnistName)
 
     # data_X = np.expand_dims(data_X, axis=3)
@@ -43,7 +43,7 @@ def GiveMNIST32_Tanh():
 
 
 def GiveMNIST32():
-    mnistName = "MNIST"
+    mnistName = "mnist"
     data_X, data_y = load_mnist(mnistName)
 
     # data_X = np.expand_dims(data_X, axis=3)

@@ -68,11 +68,14 @@ def Classifier(name, image, z_dim=20, reuse=False):
         batch_size = 64
         kernel = 3
         z_dim = 256
-        h5 = linear(image, 400, 'e_h5_lin')
+        h5 = linear(image, 200, 'e_h5_lin')
         h5 = lrelu(h5)
 
+        h6 = linear(h5, 100, 'e_h6_lin')
+        h6 = lrelu(h6)
+
         continous_len = 2
-        logoutput = linear(h5, continous_len, 'e_log_sigma_sq')
+        logoutput = linear(h6, continous_len, 'e_log_sigma_sq')
 
         return logoutput
 
@@ -265,7 +268,7 @@ class LifeLone_MNIST(object):
         self.input_height = 32
         self.input_width = 32
         self.c_dim = 3
-        self.z_dim = 200
+        self.z_dim = 256
         self.len_discrete_code = 4
         self.epoch = 20
         self.classifierLearnRate = 0.0001
@@ -2080,10 +2083,10 @@ class LifeLone_MNIST(object):
 
             batch1 = (batch1 + 1) * 127.5
             reco = (reco + 1) * 127.5
-            cv2.imwrite(os.path.join("results/", "MNISTtoFashion_real"),
+            cv2.imwrite(os.path.join("results/", "MNISTtoFashion_real.png"),
                         merge2(batch1[:64], [8, 8]))
 
-            cv2.imwrite(os.path.join("results/", "MNISTtoFashion_reco"),
+            cv2.imwrite(os.path.join("results/", "MNISTtoFashion_reco.png"),
                         merge2(reco[:64], [8, 8]))
 
             return
