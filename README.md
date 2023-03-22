@@ -31,6 +31,8 @@ Lifelong learning describes an ability that enables humans to continually acquir
 >📋 MNIST to SVHN, real testing samples, reconstructions and generations
 ![image](https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MNISTtoSVHN_real.png) ![image](https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MNISTtoSVHN_real.png) ![image](https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MNISTtoSVHN_reco.png)
 
+>📋 CelebA to 3D chair, real testing samples, reconstructions and generations
+![image](https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/FinalLVAEGAN_CelebAtoChair__RealMix_0.png) ![image](https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/FinalLVAEGAN_CelebAtoChair__RecoMix_0.png) ![image](https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/CelebAtoChair_13_.png)
 
 # BibTex
 >📋 If you use our code, please cite our paper as:
