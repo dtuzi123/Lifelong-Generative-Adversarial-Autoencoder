@@ -28,6 +28,7 @@ Lifelong learning describes an ability that enables humans to continually acquir
 ![image](https://https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MNISTtoFashion_reco.png)
 ![image](https://https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MyMNISTtoFashion19.png)
 
+
 # BibTex
 >📋 If you use our code, please cite our paper as:
 
