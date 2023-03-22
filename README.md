@@ -24,11 +24,13 @@ Lifelong learning describes an ability that enables humans to continually acquir
 
 # Visual results
 
+>📋 MNIST to Fashion, real testing samples, reconstructions and generations
+
 ![image](https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MNISTtoFashion_real.png)
 
-![image](https://https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MNISTtoFashion_reco.png)
+![image](https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MNISTtoFashion_reco.png)
 
-![image](https://https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MyMNISTtoFashion19.png)
+![image](https://github.com/dtuzi123/Lifelong-Generative-Adversarial-Autoencoder/blob/main/MyMNISTtoFashion19.png)
 
 
 # BibTex
